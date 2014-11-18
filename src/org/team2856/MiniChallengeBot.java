@@ -22,8 +22,12 @@ public class MiniChallengeBot extends IterativeRobot {
      * This function is run when the robot is first started up and should be
      * used for any initialization code.
      */
+    private DriveTrain dT;
+    private Arm arm;
+    
     public void robotInit() {
-
+            dT = new DriveTrain();
+            arm = new Arm();
     }
 
     /**

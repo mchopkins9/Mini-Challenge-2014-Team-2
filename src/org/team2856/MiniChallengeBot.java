@@ -30,7 +30,7 @@ public class MiniChallengeBot extends IterativeRobot {
      * This function is called periodically during autonomous
      */
     public void autonomousPeriodic() {
-
+        //arm goes clockwise for forward, counterclockwise for back.
     }
 
     /**

@@ -6,10 +6,13 @@ package org.team2856;
  * @author Morgan
  */
 public class RobotVariables {
+    
+    //@author Reagan
     public static final int DT_MC_MODULE = 1,
                             DT_MC_LEFT_CHANNEL = 1,
                             DT_MC_RIGHT_CHANNEL = 2;
     
+    //@author Reagan
     public static final int ARM_MC_MODULE = 1,
                             ARM_MC_CHANNEL = 3;
 }

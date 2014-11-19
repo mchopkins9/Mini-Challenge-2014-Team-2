@@ -24,8 +24,9 @@ public class DriveTrain {
         rd = new RobotDrive(left, right);
     }
     
-    public void move(double s){
-        rd.tankDrive(s, s);
+    //the dumbos on mechanical have belts of different length
+    public void move(double sL, double sR){
+        rd.tankDrive(sL, sR);
     }
     
     public void stop(){

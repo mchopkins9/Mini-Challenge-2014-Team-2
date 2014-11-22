@@ -9,6 +9,7 @@ package org.team2856;
 
 
 import edu.wpi.first.wpilibj.IterativeRobot;
+import edu.wpi.first.wpilibj.Timer;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -24,10 +25,12 @@ public class MiniChallengeBot extends IterativeRobot {
      */
     private DriveTrain dT;
     private Arm arm;
+    private Timer timeyWimey;
     
     public void robotInit() {
             dT = new DriveTrain();
             arm = new Arm();
+            timeyWimey = new Timer();
     }
 
     /**
@@ -35,6 +38,7 @@ public class MiniChallengeBot extends IterativeRobot {
      */
     public void autonomousPeriodic() {
         //arm goes clockwise for forward, counterclockwise for back.
+        
     }
 
     /**
